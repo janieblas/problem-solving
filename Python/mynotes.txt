@@ -1,0 +1,49 @@
+methods for colection types:
+
+Set: {1, 2, 3}
+my_set.add(n)
+my_set.remove(n)
+my_set.discard(n)
+my_set.clear()
+my_set = my_set.union(other_set)
+my_set = my_set.intersection(other_set)
+my_set = my_set.difference(other_set)
+my_set = my_set.symmetric_difference(other_set)
+
+List: [1, 2, 3]
+my_list.append(n)
+my_list.insert(index,n)
+my_list.remove(n)
+my_list.pop() // delet the last element
+my_list.pop(index)
+my_list.clear()
+my_list.sort()
+my_list.reverse()
+my_list.extend([4, 5, 6])
+
+String: "Hello world!"
+my_string.upper()
+my_string.lover()
+my_string.split()
+my_string = ','.join(my_list)  // "a,b,c"
+my_string.replace('old', 'new')
+my_string.find('sub')
+my_string.index(sub[, start[, end]]):
+my_string.capitalize()  # "Hello world"
+my_string.count(sub[, start[, end]]):
+my_string.startswith("hello")  # True
+
+
+Tuple: 1, ['a', 'e', 'i', 'o', 'u'], 8.9, 'hola'
+my_tuple.count(4)
+my_tuple.index(4)
+
+Array:
+my_array.append(4)
+my_array.pop()  
+my_array.pop(1) 
+my_array.remove(4)
+my_array.extend([4, 5, 6])
+my_array.index(4)
+
+for i in sorted(ans):
