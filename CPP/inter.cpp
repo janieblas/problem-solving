@@ -54,9 +54,9 @@ int main() {
     MyClass* obj = new MyClass();
     outputData(obj, 3);
     
-    //obj->freeData();
-    
-    //delete obj;
+    //obj->allocateData("data");
+
+    obj->freeData();
     
     return 0;
 }
